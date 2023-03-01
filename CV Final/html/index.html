@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Trabajo Final</title>
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+    <link rel="icon" type="image/x-icon" href="/favicon-32x32.png">
+
+    
+</head>
+    
+<body>
+    <img src="Jose Luis_01.jpg" alt="Imagen de Jose Luis"/>
+
+    <header>
+        <h1>José Luis Gómez</h1>
+    </header>
+
+    <nav>
+        <div class="botones">
+            <button type="button" id="experiencia">Experiencia</button> |
+            <button type="button" id="habilidades">Habilidades</button> |
+            <button type="button" id="contact">Contáctame</button>
+        </div>
+    </nav>
+
+    <main>
+        <section id="informacionPersonal">
+            <h2>Información Personal</h2>
+            <div class="datos">
+                <li>Nombre y Apellido: José Luis Gómez</li>
+                <li>Dirección: Combate de los Pozos 3123. CABA</li>
+                <li>Nacionalidad: Argentina</li>
+                <li>Fecha de Nacimiento: 01/12/1975</li>
+                <li>E-mail: joselo011275@hotmail.com</li>
+                <li>Télefono fijo: 42304328</li>
+                <li>Télefono móvil: 1129432500</li>
+                <li>Permiso de Conducir: B2 - Profesional</li>
+                <li>Perfil de Linkedin: linkedin.com/in/jose-luis-gomez-23439855</li>
+            </div>
+        </section>
+
+        <section id="experiencia">
+            <h2>Experiencia</h2>
+            <div class="exp">
+                <li>1996-2010 </li>
+                <li>2010-2016</li>
+                <li>2016-Actual</li>
+            </div>
+        </section>
+
+        <section id="habilidades">   
+            <h2>Habilidades</h2>
+            <div class="habi">
+                <li>Programador fullstack</li>
+            </div>
+        </section>
+
+        <section id="contactame">
+            <h2>Contáctame</h2>
+            <script src="function.js"></script>
+            <form name="contacto" action="" method="post">
+                <label>Nombre y Apellido: </label>
+                <input type="text" name="nombre_y_apellido" placeholder="Ingrese su nombre y apellido" required>
+                <label>E-mail: </label>
+                <input type="email" name="email" placeholder="Ingrese su E-mail" required>
+                <label>Mensaje: </label>
+                <textarea name="mensaje" cols="30" rows="10"></textarea>
+                <input type="submit" value="Enviar">
+                
+            </form>
+        </section>
+
+        
+    </main>
+
+    <footer>
+        <h4>Gracias por su visita</h4>
+    </footer>
+    
+       
+</body>
+</html>
